@@ -27,7 +27,7 @@
 <v t="yen.20170215103332.1"><vh>@edit base.html</vh></v>
 </v>
 </v>
-<v t="yen.20170120110024.1"><vh>@clean index.html</vh>
+<v t="yen.20170120110024.1" a="E"><vh>@clean index.html</vh>
 <v t="yen.20170120110024.2" a="E"><vh>html</vh>
 <v t="yen.20170120110024.3"><vh>head</vh></v>
 <v t="yen.20170120110024.4" a="E"><vh>body</vh>
@@ -36,10 +36,13 @@
 <v t="yen.20170120110024.7" a="E"><vh>封面投影片</vh>
 <v t="yen.20170120110024.8"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20170222114233.1" a="E"><vh>20170222Week1</vh>
+<v t="leo.20170222114233.2"><vh>投影片快捷鍵</vh></v>
+</v>
 <v t="yen.20170120110024.9" a="E"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="yen.20170120110024.11"><vh>各式內容引用範例</vh>
+<v t="yen.20170120110024.11" a="E"><vh>各式內容引用範例</vh>
 <v t="yen.20170120110024.12" a="E"><vh>導入數學符號與方程式</vh>
 <v t="yen.20170120110024.13"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -57,7 +60,7 @@
 </v>
 <v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
 <v t="yen.20170123225841.1"><vh>@edit 20170108.md</vh></v>
-<v t="yen.20170207091131.1" a="E"><vh>@clean 20170207.md</vh>
+<v t="yen.20170207091131.1"><vh>@clean 20170207.md</vh>
 <v t="yen.20170207091131.2"><vh>ex1 - for 迴圈</vh></v>
 <v t="yen.20170207091131.3"><vh>ex2 - input 與單位換算</vh></v>
 <v t="yen.20170207091131.4"><vh>filereader</vh></v>
@@ -65,7 +68,7 @@
 <v t="yen.20170209092319.1"><vh>@edit 20170209.md</vh></v>
 <v t="yen.20170217105706.1"><vh>@edit 20170217.md</vh></v>
 <v t="yen.20170221100209.1"><vh>@edit 20170222.md</vh></v>
-<v t="yen.20170108171733.81"><vh>@path pages</vh>
+<v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>
@@ -93,6 +96,34 @@
 <v t="yen.20170209024032.1"><vh>reference</vh></v>
 </vnodes>
 <tnodes>
+<t tx="leo.20170222114233.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170222114233.2"># 上課內容
+
+tiny2017 - with_pip\data\stunnel\config的stunnel.conf檔案
+
+stunnel.conf移到SciTE
+
+程式碼前面是分號 就是註解不會執行那段程式碼
+
+利用cmd查IP(ipconfig /all)
+
+將https的IP改為電腦的IP(第138行)
+
+443是https內建的port號, 不用改
+
+因為有用proxy所以要指定192.168.1.49的IP不要經過proxy                                              
+Chrome proxy設定&gt;LAN設定&gt;進階
+
+2017springcd/data/onelink_vrep_remoteapi_pos_vel.7z
+</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
