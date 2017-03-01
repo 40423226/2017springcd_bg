@@ -39,17 +39,28 @@
 <v t="yen.20170120110024.9"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20170222114233.1"><vh>20170222Week1</vh>
+<v t="leo.20170222114233.1" a="E"><vh>20170222Week1</vh>
 <v t="leo.20170222114233.2"><vh>上課內容1</vh></v>
 </v>
-<v t="yen.20170120110024.11"><vh>各式內容引用範例</vh>
-<v t="yen.20170120110024.12"><vh>導入數學符號與方程式</vh>
+<v t="leo.20170301113644.1" a="E"><vh>20170301Week2</vh>
+<v t="leo.20170301115230.1" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20170301113644.2"><vh>上課內容1</vh></v>
+</v>
+<v t="leo.20170301115239.1" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20170301115124.1"><vh>上課內容2</vh></v>
+</v>
+<v t="leo.20170301115300.1" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20170301113742.1"><vh>上課內容3</vh></v>
+</v>
+</v>
+<v t="yen.20170120110024.11" a="E"><vh>各式內容引用範例</vh>
+<v t="yen.20170120110024.12" a="E"><vh>導入數學符號與方程式</vh>
 <v t="yen.20170120110024.13"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="yen.20170120110024.14"><vh>導入縮排程式碼</vh>
+<v t="yen.20170120110024.14" a="E"><vh>導入縮排程式碼</vh>
 <v t="yen.20170120110024.15"><vh>引用程式碼</vh></v>
 </v>
-<v t="yen.20170120110024.16"><vh>導入影片</vh>
+<v t="yen.20170120110024.16" a="E"><vh>導入影片</vh>
 <v t="yen.20170120110024.17"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -59,6 +70,7 @@
 </v>
 </v>
 <v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
+<v t="leo.20170301112450.1"><vh>@edit 20170108.md</vh></v>
 <v t="yen.20170123225841.1"><vh>@edit 20170108.md</vh></v>
 <v t="yen.20170207091131.1"><vh>@clean 20170207.md</vh>
 <v t="yen.20170207091131.2"><vh>ex1 - for 迴圈</vh></v>
@@ -105,7 +117,7 @@
 
 						
 </t>
-<t tx="leo.20170222114233.2"># 上課內容
+<t tx="leo.20170222114233.2"># Week 1
 
 tiny2017 - with_pip\data\stunnel\config的stunnel.conf檔案
 
@@ -123,6 +135,72 @@ stunnel.conf移到SciTE
 Chrome proxy設定&gt;LAN設定&gt;進階
 
 2017springcd/data/onelink_vrep_remoteapi_pos_vel.7z
+</t>
+<t tx="leo.20170301113644.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170301113644.2"># Week 2
+
+1.stunnel.conf與實體IP對應 請各種至少啟動一台https Fossil主機
+
+2.啟動後以https://IP/2017springvcp_hw連結
+
+3.帳號:cadlab密碼:2017springvcp_hw
+
+4.進入https://ethercalc.org/4lirnzbeh0fl寫各組座位表
+
+5.說明如何利用 Ethercalc 以即時模式取得各學員座號與組別, 之後再將資料輸出 (複製) 成 txt 檔案後, 以 Python3 程式整理成分組數列與座位數列, 以便在後續建立協同歷程記錄時使用，以及找出缺席同學名單
+
+6.利用協同完成Solvespace4連桿機構組立
+</t>
+<t tx="leo.20170301113742.1"># Week 2
+
+&lt;iframe src="https://player.vimeo.com/video/206177676" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170301115124.1"># Week 2
+
+4.進入https://ethercalc.org/4lirnzbeh0fl寫各組座位表
+
+5.說明如何利用 Ethercalc 以即時模式取得各學員座號與組別, 之後再將資料輸出 (複製) 成 txt 檔案後, 以 Python3 程式整理成分組數列與座位數列, 以便在後續建立協同歷程記錄時使用，以及找出缺席同學名單
+
+6.利用協同完成Solvespace4連桿機構組立</t>
+<t tx="leo.20170301115230.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170301115239.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170301115300.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
 </t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
