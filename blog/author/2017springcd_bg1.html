@@ -279,11 +279,25 @@ init_mathjax();
 
             <article>
                 <h2><a href="../Week 2.html">20170301 Week 2</a></h2>
-                <div class="summary"><iframe src="./../data/fourbar/fourbar.html" width="800" height="600"></iframe>
+                <div class="summary"><p>分組座位原始碼</p>
 
-<iframe src="https://player.vimeo.com/video/206177676" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<p><a href="https://vimeo.com/206177676">Week 2_Fourbar</a> from <a href="https://vimeo.com/user46807821">NFU-MDE104B-40423226</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<pre class="brush: python">
+#import os
+adata = open("w2b_cadlab.txt", encoding="utf-8").read()
+rdata = open("w2b_registered.txt", encoding="utf-8").read().splitlines()
+#print(adata)
+alist = adata.splitlines()
+#print(alist[2])
+n = 0
+row = 0
+final_list = []
+w2_list = []
+for stud_num in alist[2:]:
+    row = row + 1
+    blist = stud_num.split("\t")
+    #print(blist)
+    column = 0
+    for i ...</pre>
                     <a class="btn btn-default btn-xs" href="../Week 2.html">more ...</a>
                 </div>
             </article>
