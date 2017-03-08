@@ -42,18 +42,18 @@
 </v>
 </v>
 <v t="leo.20170301143323.1"><vh>20170301Week2</vh>
-<v t="leo.20170301143323.2" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170301143323.2"><vh>課堂報告1</vh>
 <v t="leo.20170301143323.3"><vh>上課內容1</vh></v>
 </v>
-<v t="leo.20170301143323.4" a="E"><vh>課堂報告2</vh>
+<v t="leo.20170301143323.4"><vh>課堂報告2</vh>
 <v t="leo.20170301143323.5"><vh>上課內容2</vh></v>
 </v>
-<v t="leo.20170301143323.6" a="E"><vh>fourbar</vh>
+<v t="leo.20170301143323.6"><vh>fourbar</vh>
 <v t="leo.20170301143323.7"><vh>影片</vh></v>
 </v>
 </v>
 <v t="leo.20170308090615.1" a="E"><vh>20170308Week3</vh>
-<v t="leo.20170308090615.2" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170308090615.2"><vh>課堂報告1</vh>
 <v t="leo.20170308090615.3"><vh>上課內容1</vh></v>
 </v>
 <v t="leo.20170308114904.1" a="E"><vh>課堂報告2</vh>
@@ -230,9 +230,7 @@ Chrome proxy設定&gt;LAN設定&gt;進階
 
 						
 </t>
-<t tx="leo.20170308114904.2"># Week 3
-
-3.fossil[2017springcd_bg1](https://192.168.1.49)</t>
+<t tx="leo.20170308114904.2">3.fossil[2017springcd_bg1](https://192.168.1.49)</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
