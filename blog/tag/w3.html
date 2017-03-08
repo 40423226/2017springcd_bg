@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Course - 2017springcd_bg1 (虎尾科大MDE)</title>
+    <title>w3 - 2017springcd_bg1 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -168,7 +168,7 @@ init_mathjax();
 
 
     <meta name="author" content="2017springcd_bg1" />
-    <meta name="keywords" content="Course" />
+    <meta name="keywords" content="w3" />
 
     <!-- Open Graph tags -->
         <meta property="og:site_name" content="2017springcd_bg1 (虎尾科大MDE)" />
@@ -256,7 +256,7 @@ init_mathjax();
                          <li><a href="../pages/about/">
                              About
                           </a></li>
-                        <li class="active">
+                        <li >
                             <a href="../category/course.html">Course</a>
                         </li>
             </ul>
@@ -287,31 +287,6 @@ init_mathjax();
                 </div>
             </article>
             <hr/>
-            <article>
-                <h2><a href="../Week 2.html">20170301 Week 2</a></h2>
-                <div class="summary"><p>分組座位原始碼</p>
-
-<pre class="brush: python">
-#import os
-adata = open("w2b_cadlab.txt", encoding="utf-8").read()
-rdata = open("w2b_registered.txt", encoding="utf-8").read().splitlines()
-#print(adata)
-alist = adata.splitlines()
-#print(alist[2])
-n = 0
-row = 0
-final_list = []
-w2_list = []
-for stud_num in alist[2:]:
-    row = row + 1
-    blist = stud_num.split("\t")
-    #print(blist)
-    column = 0
-    for i ...</pre>
-                    <a class="btn btn-default btn-xs" href="../Week 2.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
 
         </div>
         <div class="col-sm-3" id="sidebar">
@@ -325,11 +300,6 @@ for stud_num in alist[2:]:
                     <li class="list-group-item">
                         <a href="../Week 3.html">
                             20170308 Week 3
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../Week 2.html">
-                            20170301 Week 2
                         </a>
                     </li>
                 </ul>

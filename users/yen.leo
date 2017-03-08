@@ -33,7 +33,7 @@
 <v t="yen.20170120110024.4" a="E"><vh>body</vh>
 <v t="yen.20170120110024.5" a="E"><vh>reveal div</vh>
 <v t="yen.20170120110024.6" a="E"><vh>slides div</vh>
-<v t="yen.20170120110024.7"><vh>封面投影片</vh>
+<v t="yen.20170120110024.7" a="E"><vh>封面投影片</vh>
 <v t="yen.20170120110024.8"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20170301143914.1"><vh>20170222Week1</vh>
@@ -50,6 +50,14 @@
 </v>
 <v t="leo.20170301143323.6" a="E"><vh>fourbar</vh>
 <v t="leo.20170301143323.7"><vh>影片</vh></v>
+</v>
+</v>
+<v t="leo.20170308090615.1" a="E"><vh>20170308Week3</vh>
+<v t="leo.20170308090615.2" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170308090615.3"><vh>上課內容1</vh></v>
+</v>
+<v t="leo.20170308114904.1" a="E"><vh>課堂報告2</vh>
+<v t="leo.20170308114904.2"><vh>上課內容1</vh></v>
 </v>
 </v>
 <v t="yen.20170120110024.9"><vh>快捷鍵</vh>
@@ -73,6 +81,7 @@
 </v>
 <v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
 <v t="leo.20170301112450.1"><vh>@edit 20170301.md</vh></v>
+<v t="leo.20170308090859.1"><vh>@edit 20170308.md</vh></v>
 <v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -190,6 +199,40 @@ Chrome proxy設定&gt;LAN設定&gt;進階
 
 2017springcd/data/onelink_vrep_remoteapi_pos_vel.7z
 </t>
+<t tx="leo.20170308090615.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170308090615.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170308090615.3"># Week 3
+
+1.英文稿
+
+2.四連桿機構
+&lt;iframe src="https://player.vimeo.com/video/207398747" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170308114904.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170308114904.2"># Week 3
+
+3.fossil[2017springcd_bg1](https://192.168.1.49)</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
