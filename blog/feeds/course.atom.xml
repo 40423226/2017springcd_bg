@@ -3,7 +3,32 @@
 
 &lt;p&gt;Student Edition: &lt;a href="http://www.altairuniversity.com/get-the-free-hyperworks-14-0-student-edition/"&gt;Download Now!&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3&gt;Fossil&lt;/h3&gt;
+&lt;h3&gt;影片聽打&lt;/h3&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/207239262" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Over the years, we have assembled a quite portfolio of solution technology.&lt;/p&gt;
+
+&lt;p&gt;
+We're going from Structures or Crash Safety, Thermal, Fluid Dynamics, Systems Simulation, all the way to Electro-Magnetic Simulation.&lt;/p&gt;
+
+&lt;p&gt;Our specialty is connecting all these different disciplines through Multiphyxics Optimization.&lt;p&gt;
+We're using simulation technology to drive innovation.
+&lt;p&gt;To create new products.&lt;p&gt;
+&lt;p&gt;The key enables of our simulation driven innovation and of technology focus is optimization technology first then the Broad Portfolio of Physics and Computation Performance.&lt;/p&gt;
+&lt;p&gt;We made our name OptiStruct's topology optimization.&lt;/p&gt;
+&lt;p&gt;Throughout the years focusing on concept design and we are now coming out with lattice structure optimization.&lt;/p&gt;
+&lt;p&gt;We still put a lot of energy and composites design and optimization.&lt;/p&gt;
+&lt;p&gt;We always keep improving and advancing the nonlinear capabilities of our districts or non-linear durability.&lt;/p&gt;
+&lt;p&gt;We now have finite sliding contact.&lt;/p&gt;
+&lt;p&gt;So you can do things like a gear simulation and of course for the automotive industry our noise and vibration and acoustics are very advanced and I think we are the leading technology here with destruct also an audience.&lt;/p&gt;
+&lt;p&gt;We focus a lot of contact simulation that we have contact simulation artists are contact simulation new contact types and audios for electronic drug testing.&lt;/p&gt;
+&lt;p&gt;We developed a fluid structure interaction we're back simulation or airplane ditching and their plane landing in water all these are multidisciplinary technologies are or multiphysics and heat transfer analysis.&lt;/p&gt;
+&lt;p&gt;We have a very complete solution now giving you a steady state and transient capabilities one additional focus in in multiphysics simulation is as materials in audience.&lt;/p&gt;
+&lt;p&gt;We developed extended finite element technology to model things that glass breakage for example and we also did the just recently an acquisition and the products will be multiscale designer where we can look at the Michael structure of the materials and then derive analytically material property.&lt;/p&gt;
+&lt;p&gt;So we can look at things like fatigue statistical distribution of fibers we can look at failure progressive failure how the material actually fails we have  really good technology.&lt;/p&gt;
+
+&lt;h3&gt;近端Fossil&lt;/h3&gt;
 
 &lt;p&gt;1. 更改Start.bat設定&lt;/p&gt;
 
@@ -66,11 +91,33 @@ Exit
 
 &lt;pre&gt;ipconfig /all&lt;/pre&gt;
 
-&lt;p&gt;4. 確認是否有用Poxy, 若有則需要將自己的IP設為例外&lt;/p&gt;
+&lt;p&gt;4. 確認是否有用Proxy, 若有則需要將自己的IP設為例外&lt;/p&gt;
 
 &lt;p&gt;5. 使用瀏覽器輸入網址&lt;/p&gt;
 
-&lt;pre&gt;https://&lt;u&gt;電腦IPv4的IP&lt;/u&gt;&lt;/pre&gt;</summary><category term="syllabus"></category><category term="w3"></category></entry><entry><title>20170301 Week 2</title><link href="./Week%202.html" rel="alternate"></link><published>2017-03-01T11:00:00+08:00</published><updated>2017-03-01T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-03-01:./Week 2.html</id><summary type="html">&lt;p&gt;分組座位原始碼&lt;/p&gt;
+&lt;pre&gt;https://&lt;u&gt;電腦IPv4的IP&lt;/u&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Fourbar&lt;/h3&gt;
+
+&lt;p&gt;零件繪製&lt;p&gt;
+&lt;p&gt;Link_30: &lt;button onClick="lity('https://vimeo.com/207891452')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; SolveSpace&lt;/button&gt; 
+&lt;button onClick="lity('https://vimeo.com/207891474')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Onshape&lt;/button&gt; 
+&lt;button onClick="lity('./../data/fourbar/Link_30 (SolveSpace).png')"&gt;&lt;span class="glyphicon glyphicon-picture"&gt;&lt;/span&gt; 尺寸圖&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;Link_50: &lt;button onClick="lity('https://vimeo.com/207891460')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; SolveSpace&lt;/button&gt; 
+&lt;button onClick="lity('https://vimeo.com/207891480')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Onshape&lt;/button&gt; 
+&lt;button onClick="lity('./../data/fourbar/Link_50 (SolveSpace).png')"&gt;&lt;span class="glyphicon glyphicon-picture"&gt;&lt;/span&gt; 尺寸圖&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;Link_60: &lt;button onClick="lity('https://vimeo.com/207891463')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; SolveSpace&lt;/button&gt; 
+&lt;button onClick="lity('https://vimeo.com/207891487')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Onshape&lt;/button&gt; 
+&lt;button onClick="lity('./../data/fourbar/Link_60 (SolveSpace).png')"&gt;&lt;span class="glyphicon glyphicon-picture"&gt;&lt;/span&gt; 尺寸圖&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;Fourbar組裝: &lt;button onClick="lity('https://vimeo.com/207891469')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; SolveSpace&lt;/button&gt; 
+&lt;button onClick="lity('https://vimeo.com/207891489')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Onshape&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;正三角形頂點軌跡&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="../data/fourbar/EXCEL_fourbar_triangle.png" width="800" /&gt;</summary><category term="syllabus"></category><category term="w3"></category></entry><entry><title>20170301 Week 2</title><link href="./Week%202.html" rel="alternate"></link><published>2017-03-01T11:00:00+08:00</published><updated>2017-03-01T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-03-01:./Week 2.html</id><summary type="html">&lt;p&gt;分組座位原始碼&lt;/p&gt;
 
 &lt;pre class="brush: python"&gt;
 #import os
