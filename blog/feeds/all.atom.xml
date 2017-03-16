@@ -115,9 +115,9 @@ Exit
 &lt;p&gt;Fourbar組裝: &lt;button onClick="lity('https://vimeo.com/207891469')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; SolveSpace&lt;/button&gt; 
 &lt;button onClick="lity('https://vimeo.com/207891489')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Onshape&lt;/button&gt;&lt;/p&gt;
 
-&lt;p&gt;正三角形頂點軌跡&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="../data/fourbar/EXCEL_fourbar_triangle.png" width="800" /&gt;</summary><category term="syllabus"></category><category term="w3"></category></entry><entry><title>20170301 Week 2</title><link href="./Week%202.html" rel="alternate"></link><published>2017-03-01T11:00:00+08:00</published><updated>2017-03-01T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-03-01:./Week 2.html</id><summary type="html">&lt;p&gt;分組座位原始碼&lt;/p&gt;
+&lt;p&gt;外加正三角形: 
+&lt;button onClick="lity('./../data/fourbar/solvespace_fourbar_triangle.png')"&gt;&lt;span class="glyphicon glyphicon-picture"&gt;&lt;/span&gt; 尺寸圖&lt;/button&gt; 
+&lt;button onClick="lity('./../data/fourbar/EXCEL_fourbar_triangle.png')"&gt;&lt;span class="glyphicon glyphicon-picture"&gt;&lt;/span&gt; 路徑圖&lt;/button&gt;&lt;/p&gt;</summary><category term="syllabus"></category><category term="w3"></category></entry><entry><title>20170301 Week 2</title><link href="./Week%202.html" rel="alternate"></link><published>2017-03-01T11:00:00+08:00</published><updated>2017-03-01T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-03-01:./Week 2.html</id><summary type="html">&lt;p&gt;分組座位原始碼&lt;/p&gt;
 
 &lt;pre class="brush: python"&gt;
 #import os
