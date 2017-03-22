@@ -53,23 +53,22 @@ REM 附加資料
 REM 啟動 stunnel
 start /MIN stunnel.exe
 REM 以 chrome 連線到 https://%NetworkIP%:443
-chrome https://%NetworkIP%
-chrome https://mde2a2.kmol.info/cdbg1
+chrome https://%NetworkIP% https://mde2a2.kmol.info/cdbg1
 Exit
 &lt;/pre&gt;
 
 &lt;p&gt;&lt;/p&gt;2. 檢查是否有相對應的 fossil檔案&lt;/p&gt;
 &lt;pre&gt;start /MIN fossil.exe server -P 127.0.0.1:8080 %Disk%:\tmp\fossil_repo\2017springcd_bg1.fpssil&lt;/pre&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;3. 自己額外在最後一行, 新增一個指令&lt;/p&gt;
-&lt;pre&gt;chrome https://mde2a2.kmol.info/cdbg1&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;3. 自己額外在最後一行, 新增一個小組 fpssil 網址&lt;/p&gt;
+&lt;pre&gt;https://mde2a2.kmol.info/cdbg1&lt;/pre&gt;&lt;/p&gt;
 &lt;h3&gt;建立與 project name 同名的首頁 wiki&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href="https://mde2a2.kmol.info/cdbg1"&gt;https://mde2a2.kmol.info/cdbg1&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3&gt;從 SolveSpace 匯出 onebar 並在 V-rep 加入馬達&lt;/h3&gt;
 
-&lt;p&gt;SolveSpacec 匯出: &lt;button onClick="lity('https://vimeo.com/209501913')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Vimeo&lt;/button&gt;&lt;p&gt;
-&lt;p&gt;V-rep 加入馬達: &lt;button onClick="lity('https://vimeo.com/209502238')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Vimeo&lt;/button&gt;&lt;p&gt;</summary><category term="w5"></category></entry><entry><title>20170308 Week 3</title><link href="./Week%203.html" rel="alternate"></link><published>2017-03-08T11:00:00+08:00</published><updated>2017-03-08T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-03-08:./Week 3.html</id><summary type="html">&lt;h3&gt;HyperWorks 14.0 Student Edition&lt;/h3&gt;
+&lt;p&gt;SolveSpacec 匯出: &lt;button onClick="lity('https://vimeo.com/209501913')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 影片&lt;/button&gt;&lt;p&gt;
+&lt;p&gt;V-rep 加入馬達: &lt;button onClick="lity('https://vimeo.com/209502238')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 影片&lt;/button&gt;&lt;p&gt;</summary><category term="w5"></category></entry><entry><title>20170308 Week 3</title><link href="./Week%203.html" rel="alternate"></link><published>2017-03-08T11:00:00+08:00</published><updated>2017-03-08T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-03-08:./Week 3.html</id><summary type="html">&lt;h3&gt;HyperWorks 14.0 Student Edition&lt;/h3&gt;
 
 &lt;p&gt;Student Edition: &lt;a href="http://www.altairuniversity.com/get-the-free-hyperworks-14-0-student-edition/"&gt;Download Now!&lt;/a&gt;&lt;/p&gt;
 
@@ -187,7 +186,7 @@ Exit
 
 &lt;p&gt;外加正三角形: 
 &lt;button onClick="lity('./../data/fourbar/solvespace_fourbar_triangle.png')"&gt;&lt;span class="glyphicon glyphicon-picture"&gt;&lt;/span&gt; 尺寸圖&lt;/button&gt; 
-&lt;button onClick="lity('./../data/fourbar/EXCEL_fourbar_triangle.png')"&gt;&lt;span class="glyphicon glyphicon-picture"&gt;&lt;/span&gt; 路徑圖&lt;/button&gt;&lt;/p&gt;</summary><category term="w3"></category></entry><entry><title>20170301 Week 2</title><link href="./Week%202.html" rel="alternate"></link><published>2017-03-01T11:00:00+08:00</published><updated>2017-03-01T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-03-01:./Week 2.html</id><summary type="html">&lt;p&gt;分組座位原始碼&lt;/p&gt;
+&lt;button onClick="lity('./../data/fourbar/EXCEL_fourbar_triangle.png')"&gt;&lt;span class="glyphicon glyphicon-picture"&gt;&lt;/span&gt; 路徑圖&lt;/button&gt;&lt;/p&gt;</summary><category term="w3"></category></entry><entry><title>20170301 Week 2</title><link href="./Week%202.html" rel="alternate"></link><published>2017-03-01T11:00:00+08:00</published><updated>2017-03-01T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-03-01:./Week 2.html</id><summary type="html">&lt;p&gt;分組座位程式碼&lt;/p&gt;
 
 &lt;pre class="brush: python"&gt;
 #import os

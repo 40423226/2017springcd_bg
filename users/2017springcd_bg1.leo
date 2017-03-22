@@ -33,31 +33,47 @@
 <v t="yen.20170120110024.4" a="E"><vh>body</vh>
 <v t="yen.20170120110024.5" a="E"><vh>reveal div</vh>
 <v t="yen.20170120110024.6" a="E"><vh>slides div</vh>
-<v t="yen.20170120110024.7" a="E"><vh>封面投影片</vh>
+<v t="yen.20170120110024.7"><vh>封面投影片</vh>
 <v t="yen.20170120110024.8"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20170301143914.1"><vh>20170222Week1</vh>
+<v t="leo.20170322225154.1" a="E"><vh>周次</vh>
+<v t="leo.20170322225154.2"><vh>Week</vh></v>
+</v>
 <v t="leo.20170301143914.2" a="E"><vh>課堂報告1</vh>
 <v t="leo.20170301143914.3"><vh>上課內容1</vh></v>
 </v>
 </v>
 <v t="leo.20170301143323.1"><vh>20170301Week2</vh>
-<v t="leo.20170301143323.2"><vh>課堂報告1</vh>
+<v t="leo.20170322225156.1" a="E"><vh>周次</vh>
+<v t="leo.20170322225156.2"><vh>Week</vh></v>
+</v>
+<v t="leo.20170301143323.2" a="E"><vh>課堂報告1</vh>
 <v t="leo.20170301143323.3"><vh>上課內容1</vh></v>
-</v>
-<v t="leo.20170301143323.4"><vh>課堂報告2</vh>
-<v t="leo.20170301143323.5"><vh>上課內容2</vh></v>
-</v>
-<v t="leo.20170301143323.6"><vh>fourbar</vh>
-<v t="leo.20170301143323.7"><vh>影片</vh></v>
 </v>
 </v>
 <v t="leo.20170308090615.1"><vh>20170308Week3</vh>
-<v t="leo.20170308090615.2"><vh>課堂報告1</vh>
+<v t="leo.20170322225150.1" a="E"><vh>周次</vh>
+<v t="leo.20170322225150.2"><vh>Week</vh></v>
+</v>
+<v t="leo.20170308090615.2" a="E"><vh>課堂報告1</vh>
 <v t="leo.20170308090615.3"><vh>上課內容1</vh></v>
 </v>
-<v t="leo.20170308114904.1"><vh>課堂報告2</vh>
-<v t="leo.20170308114904.2"><vh>上課內容1</vh></v>
+</v>
+<v t="leo.20170322223409.1"><vh>20170315Week4</vh>
+<v t="leo.20170322225003.1" a="E"><vh>周次</vh>
+<v t="leo.20170322225003.2"><vh>Week</vh></v>
+</v>
+<v t="leo.20170322223409.2" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170322223409.3"><vh>上課內容1</vh></v>
+</v>
+</v>
+<v t="leo.20170322225511.1"><vh>20170322Week5</vh>
+<v t="leo.20170322225511.2" a="E"><vh>周次</vh>
+<v t="leo.20170322225511.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170322225511.4" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170322225511.5"><vh>上課內容1</vh></v>
 </v>
 </v>
 <v t="yen.20170120110024.9"><vh>快捷鍵</vh>
@@ -125,48 +141,18 @@
 
 						
 </t>
-<t tx="leo.20170301143323.3"># Week 2
+<t tx="leo.20170301143323.3">&lt;p align="left"&gt;
+1. https://ethercalc.org/4lirnzbeh0fl 寫各組座位表&lt;/p&gt;
 
-1.stunnel.conf與實體IP對應 請各種至少啟動一台https Fossil主機
+&lt;p align="left"&gt;
+2. 說明分組座位程式碼&lt;/p&gt;
 
-2.啟動後以https://IP/2017springvcp_hw連結
+&lt;p align="left"&gt;
+3. 完成 SolveSpace 四連桿機構&lt;/p&gt;
 
-3.帳號:cadlab密碼:2017springvcp_hw
+&lt;iframe src="https://player.vimeo.com/video/207398747" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-4.進入https://ethercalc.org/4lirnzbeh0fl寫各組座位表
-
-5.說明如何利用 Ethercalc 以即時模式取得各學員座號與組別, 之後再將資料輸出 (複製) 成 txt 檔案後, 以 Python3 程式整理成分組數列與座位數列, 以便在後續建立協同歷程記錄時使用，以及找出缺席同學名單
-
-6.利用協同完成Solvespace4連桿機構組立
 </t>
-<t tx="leo.20170301143323.4">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170301143323.5">4.進入https://ethercalc.org/4lirnzbeh0fl寫各組座位表
-
-5.說明如何利用 Ethercalc 以即時模式取得各學員座號與組別, 之後再將資料輸出 (複製) 成 txt 檔案後, 以 Python3 程式整理成分組數列與座位數列, 以便在後續建立協同歷程記錄時使用，以及找出缺席同學名單
-
-6.利用協同完成Solvespace4連桿機構組立</t>
-<t tx="leo.20170301143323.6">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20170301143323.7"># Fourbar
-
-&lt;iframe src="https://player.vimeo.com/video/206177676" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20170301143914.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
@@ -181,25 +167,20 @@
 
 						
 </t>
-<t tx="leo.20170301143914.3"># Week 1
+<t tx="leo.20170301143914.3">&lt;p align="left"&gt;
+1. 用 SciTE 將 Y:\stunnel\config 下的 stunnel.conf 開啟&lt;/p&gt;
 
-tiny2017 - with_pip\data\stunnel\config的stunnel.conf檔案
+&lt;p align="left"&gt;
+2. 在 cmd 輸入 ipconfig /all 查詢電腦 IP&lt;/p&gt;
 
-stunnel.conf移到SciTE
+&lt;p align="left"&gt;
+3. 並將 stunnel.conf 的 https 的 IP 改為電腦的 IP&lt;/p&gt;
 
-程式碼前面是分號 就是註解不會執行那段程式碼
+&lt;p align="left"&gt;
+4. 若有使用 proxy 要指定電腦的 IP 不要經過 proxy&lt;/p&gt;
 
-利用cmd查IP(ipconfig /all)
-
-將https的IP改為電腦的IP(第138行)
-
-443是https內建的port號, 不用改
-
-因為有用proxy所以要指定192.168.1.49的IP不要經過proxy                                              
-Chrome proxy設定&gt;LAN設定&gt;進階
-
-2017springcd/data/onelink_vrep_remoteapi_pos_vel.7z
-</t>
+&lt;p align="left"&gt;
+5. 可從 Google Chrome 設定 (proxy 設定&gt;LAN設定&gt;進階)&lt;/p&gt;</t>
 <t tx="leo.20170308090615.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
@@ -214,13 +195,15 @@ Chrome proxy設定&gt;LAN設定&gt;進階
 
 						
 </t>
-<t tx="leo.20170308090615.3"># Week 3
+<t tx="leo.20170308090615.3">&lt;p align="left"&gt;
+1. 完成看影片打出英文稿&lt;/p&gt;
 
-1.英文稿
-
-2.四連桿機構
-&lt;iframe src="https://player.vimeo.com/video/207398747" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20170308114904.1">&lt;section data-markdown&gt;
+&lt;p align="left"&gt;
+2. 練習在近端建立 fossil&lt;/p&gt;</t>
+<t tx="leo.20170322223409.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170322223409.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -231,7 +214,97 @@ Chrome proxy設定&gt;LAN設定&gt;進階
 
 						
 </t>
-<t tx="leo.20170308114904.2">3.fossil[2017springcd_bg1](https://192.168.1.49)</t>
+<t tx="leo.20170322223409.3">&lt;p align="left"&gt;
+1. 建立協同主機 2017springcd_bg1 : &lt;a href="https://mde2a2.kmol.info/cdbg1"&gt;https://mde2a2.kmol.info/cdbg1&lt;/a&gt; &lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. 繪製單桿機構&lt;/p&gt;
+
+&lt;iframe src="data/onebar/onebar.html" width="800" height="480"&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170322225003.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170322225003.2"># Week 4
+</t>
+<t tx="leo.20170322225150.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170322225150.2"># Week 3
+</t>
+<t tx="leo.20170322225154.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170322225154.2"># Week 1
+</t>
+<t tx="leo.20170322225156.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170322225156.2"># Week 2
+</t>
+<t tx="leo.20170322225511.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170322225511.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170322225511.3"># Week 5
+</t>
+<t tx="leo.20170322225511.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170322225511.5">&lt;p align="left"&gt;
+1. Fossil SCM 與 Stunnel 啟動整合&lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. SolveSpace 匯出 onebar 並在 V-rep 加入馬達&lt;/p&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/

@@ -23,7 +23,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Home', 'https://40423226.github.io/2017springcd_1/blog/'),('Pelican', 'http://getpelican.com/'),
+LINKS = (('Pelican', 'http://getpelican.com/'),
          ('pelican-bootstrap3', 'https://github.com/DandyDev/pelican-bootstrap3/'),
          ('pelican-plugins', 'https://github.com/getpelican/pelican-plugins'),
          ('Tipue search', 'https://github.com/Tipue/Tipue-Search'),)
