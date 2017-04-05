@@ -76,7 +76,7 @@
 <v t="leo.20170322225511.5"><vh>上課內容1</vh></v>
 </v>
 </v>
-<v t="leo.20170405085239.1"><vh>20170405Week6</vh>
+<v t="leo.20170405085239.1" a="E"><vh>20170405Week6</vh>
 <v t="leo.20170405085239.2" a="E"><vh>周次</vh>
 <v t="leo.20170405085239.3"><vh>Week</vh></v>
 </v>
@@ -341,10 +341,10 @@
 						
 </t>
 <t tx="leo.20170405085239.5">&lt;p align="left"&gt;
-1. &lt;/p&gt;
+1. 123&lt;/p&gt;
 
 &lt;p align="left"&gt;
-2. &lt;/p&gt;</t>
+2. 123&lt;/p&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
