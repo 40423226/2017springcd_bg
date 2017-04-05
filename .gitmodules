@@ -18,10 +18,6 @@
 	path = 40423226
 	url = https://github.com/40423226/2017springcd_hw
 	branch = gh-pages
-[submodule "40423229"]
-	path = 40423229
-	url = https://github.com/40423229/2017springcd_hw
-	branch = gh-pages
 [submodule "40423241"]
 	path = 40423241
 	url = https://github.com/40423241/2017springcd_hw
@@ -29,4 +25,8 @@
 [submodule "40423243"]
 	path = 40423243
 	url = https://github.com/40423243/2017springcd_hw
+	branch = gh-pages
+[submodule "40423229"]
+	path = 40423229
+	url = https://github.com/40423229/2017springcd_hw
 	branch = gh-pages
