@@ -76,6 +76,14 @@
 <v t="leo.20170322225511.5"><vh>上課內容1</vh></v>
 </v>
 </v>
+<v t="leo.20170405085239.1"><vh>20170405Week6</vh>
+<v t="leo.20170405085239.2" a="E"><vh>周次</vh>
+<v t="leo.20170405085239.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170405085239.4" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170405085239.5"><vh>上課內容1</vh></v>
+</v>
+</v>
 <v t="yen.20170120110024.9"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -305,6 +313,38 @@
 
 &lt;p align="left"&gt;
 2. SolveSpace 匯出 onebar 並在 V-rep 加入馬達&lt;/p&gt;</t>
+<t tx="leo.20170405085239.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170405085239.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170405085239.3"># Week 6
+</t>
+<t tx="leo.20170405085239.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170405085239.5">&lt;p align="left"&gt;
+1. &lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. &lt;/p&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
