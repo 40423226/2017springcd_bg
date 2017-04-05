@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017springcd_bg1 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-22T11:00:00+08:00</updated><entry><title>20170322 Week 5</title><link href="./Week%205.html" rel="alternate"></link><published>2017-03-22T11:00:00+08:00</published><updated>2017-03-22T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-03-22:./Week 5.html</id><summary type="html">&lt;h3&gt;Fossil SCM 與 Stunnel 啟動整合&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017springcd_bg1 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-05T11:00:00+08:00</updated><entry><title>20170405 Week 7</title><link href="./Week%207.html" rel="alternate"></link><published>2017-04-05T11:00:00+08:00</published><updated>2017-04-05T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-04-05:./Week 7.html</id><summary type="html">&lt;h3&gt;Fossil 推送檔案&lt;/h3&gt;
+
+&lt;p&gt;1. 在 fossil_repo 的目錄 clone 遠端的 fossil 檔&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="../data/fossil clone.png" width="800" /&gt;
+
+&lt;p&gt;2. 會發現多一個 bg1.fossil 的檔案&lt;/p&gt;
+
+&lt;p&gt;3. 新建一個 wd 的目錄, 並且進去 wd 目錄&lt;/p&gt;
+
+&lt;pre&gt;
+mkdir wd
+cd wd&lt;/pre&gt;
+
+&lt;p&gt;4. 再新建一個 w7 的目錄, 並且進去 w7 目錄&lt;/p&gt;
+
+&lt;pre&gt;
+mkdir w7
+cd w7&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src="../data/cd w7.png" width="800" /&gt;
+
+&lt;p&gt;5. 用相對位置打開 bg1.fossil &lt;/p&gt;
+&lt;pre&gt;fossil open ./../../bg1.fossil&lt;/pre&gt;
+
+&lt;p&gt;6. 有出現 _FOSSIL_ 檔, 代表有成功開啟&lt;/p&gt;
+
+&lt;p&gt;7.將推送的資料放進資料夾中&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="../data/40423226.png" width="800" /&gt;
+
+&lt;p&gt;8. 依序輸入推送指令&lt;/p&gt;
+&lt;pre&gt;
+fossil add .
+fossil remote-url off
+fossil commit -m "提交的註解"
+fossil push http://user@10.0.0.130 &lt;/pre&gt;
+
+&lt;p&gt;9. 如果遠端已經有別人先進行更新, 需要先更新進端資料, 再進行推送&lt;/p&gt;
+&lt;pre&gt;
+fossil update&lt;/pre&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/211644591" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/211644591"&gt;Fossil 資料推送&lt;/a&gt; from &lt;a href="https://vimeo.com/mde40423226"&gt;NFU-MDE-104B-40423226&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="w7"></category></entry><entry><title>20170322 Week 5</title><link href="./Week%205.html" rel="alternate"></link><published>2017-03-22T11:00:00+08:00</published><updated>2017-03-22T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-03-22:./Week 5.html</id><summary type="html">&lt;h3&gt;Fossil SCM 與 Stunnel 啟動整合&lt;/h3&gt;
 
 &lt;p&gt;1. 更改Start.bat設定&lt;/p&gt;
 

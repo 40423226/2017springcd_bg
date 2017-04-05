@@ -76,7 +76,7 @@
 <v t="leo.20170322225511.5"><vh>上課內容1</vh></v>
 </v>
 </v>
-<v t="leo.20170405085239.1" a="E"><vh>20170405Week6</vh>
+<v t="leo.20170405085239.1"><vh>20170405Week7</vh>
 <v t="leo.20170405085239.2" a="E"><vh>周次</vh>
 <v t="leo.20170405085239.3"><vh>Week</vh></v>
 </v>
@@ -107,6 +107,7 @@
 <v t="leo.20170301112450.1"><vh>@edit 20170301.md</vh></v>
 <v t="leo.20170308090859.1"><vh>@edit 20170308.md</vh></v>
 <v t="leo.20170322095639.1"><vh>@edit 20170322.md</vh></v>
+<v t="leo.20170405154732.1"><vh>@edit 20170405.md</vh></v>
 <v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -327,7 +328,7 @@
 
 						
 </t>
-<t tx="leo.20170405085239.3"># Week 6
+<t tx="leo.20170405085239.3"># Week 7
 </t>
 <t tx="leo.20170405085239.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
