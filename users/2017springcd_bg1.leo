@@ -84,6 +84,14 @@
 <v t="leo.20170405085239.5"><vh>上課內容1</vh></v>
 </v>
 </v>
+<v t="leo.20170412113343.1"><vh>20170412Week8</vh>
+<v t="leo.20170412113343.2" a="E"><vh>周次</vh>
+<v t="leo.20170412113343.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170412113343.4" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170412113343.5"><vh>上課內容1</vh></v>
+</v>
+</v>
 <v t="yen.20170120110024.9"><vh>快捷鍵</vh>
 <v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -108,6 +116,7 @@
 <v t="leo.20170308090859.1"><vh>@edit 20170308.md</vh></v>
 <v t="leo.20170322095639.1"><vh>@edit 20170322.md</vh></v>
 <v t="leo.20170405154732.1"><vh>@edit 20170405.md</vh></v>
+<v t="leo.20170412113306.1"><vh>@edit 20170412.md</vh></v>
 <v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -346,6 +355,36 @@
 
 &lt;p align="left"&gt;
 2. 123&lt;/p&gt;</t>
+<t tx="leo.20170412113343.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170412113343.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170412113343.3"># Week 8
+
+</t>
+<t tx="leo.20170412113343.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170412113343.5">&lt;p align="left"&gt;
+1. 小組互評: https://pygroup-ag100.rhcloud.com &lt;/p&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/

@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Articles by 2017springcd_bg1 - 2017springcd_bg1 (虎尾科大MDE)</title>
+    <title>w8 - 2017springcd_bg1 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -167,7 +167,8 @@ init_mathjax();
 </script>
 
 
-        <meta name="author" content="2017springcd_bg1" />
+    <meta name="author" content="2017springcd_bg1" />
+    <meta name="keywords" content="w8" />
 
     <!-- Open Graph tags -->
         <meta property="og:site_name" content="2017springcd_bg1 (虎尾科大MDE)" />
@@ -284,103 +285,6 @@ init_mathjax();
                 </div>
             </article>
             <hr/>
-            <article>
-                <h2><a href="../Week 7.html">20170405 Week 7</a></h2>
-                <div class="summary"><h3>Fossil 推送檔案</h3>
-
-<p>1. 在 fossil_repo 的目錄 clone 區網的 fossil 檔</p>
-
-<p><img src="../data/fossil clone.png" width="800" />
-
-<p>2. 會發現多一個 bg1.fossil 的檔案</p>
-
-<p>3. 新建一個 wd 的目錄, 並且進去 wd 目錄</p>
-
-<pre>
-mkdir wd
-cd wd</pre>
-
-<p>4. 再新建一個 w7 的目錄, 並且進去 w7 目錄</p>
-
-<pre>
-mkdir w7
-cd w7</pre>
-
-<p><img src="../data/cd w7.png" width="800" />
-
-<p>5. 用相對位置打開 bg1.fossil </p>
-<pre>fossil open ./../../bg1.fossil</pre>
-
-<p>6. 有出現 _FOSSIL_ 檔, 代表有成功開啟 ...</p></p></p>
-                    <a class="btn btn-default btn-xs" href="../Week 7.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="../Week 5.html">20170322 Week 5</a></h2>
-                <div class="summary"><h3>Fossil SCM 與 Stunnel 啟動整合</h3>
-
-<p>1. 更改Start.bat設定</p>
-
-<pre class="brush: python">
-REM tiny2017 主要針對初學 Python3 與 C 學員所建立
-REM 近端使用 fossil 管理資料版本, 並且定時轉為 git 格式後上傳到 github
-@echo off
-REM 設定 y 硬碟代號與 data 目錄對應
-set Disk=y
-subst %Disk%: "data"
-REM 設定 leo 相關對應 Home 位置
-set HomePath=%Disk%:\home
-set HomeDrive=%Disk ...</pre>
-                    <a class="btn btn-default btn-xs" href="../Week 5.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="../Week 3.html">20170308 Week 3</a></h2>
-                <div class="summary"><h3>HyperWorks 14.0 Student Edition</h3>
-
-<p>Student Edition: <a href="http://www.altairuniversity.com/get-the-free-hyperworks-14-0-student-edition/">Download Now!</a></p>
-
-<h3>影片聽打</h3>
-
-<iframe src="https://player.vimeo.com/video/207239262" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<p>Over the years, we have assembled a quite portfolio of solution technology.</p>
-
-<p>
-We're going from Structures or Crash Safety, Thermal, Fluid Dynamics, Systems Simulation, all the way to Electro-Magnetic Simulation.</p>
-
-<p>Our specialty is connecting all these different disciplines through ...</p>
-                    <a class="btn btn-default btn-xs" href="../Week 3.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="../Week 2.html">20170301 Week 2</a></h2>
-                <div class="summary"><p>分組座位程式碼</p>
-
-<pre class="brush: python">
-#import os
-adata = open("w2b_cadlab.txt", encoding="utf-8").read()
-rdata = open("w2b_registered.txt", encoding="utf-8").read().splitlines()
-#print(adata)
-alist = adata.splitlines()
-#print(alist[2])
-n = 0
-row = 0
-final_list = []
-w2_list = []
-for stud_num in alist[2:]:
-    row = row + 1
-    blist = stud_num.split("\t")
-    #print(blist)
-    column = 0
-    for i ...</pre>
-                    <a class="btn btn-default btn-xs" href="../Week 2.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
 
         </div>
         <div class="col-sm-3" id="sidebar">
@@ -394,26 +298,6 @@ for stud_num in alist[2:]:
                     <li class="list-group-item">
                         <a href="../Week 8.html">
                             20170412 Week 8
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../Week 7.html">
-                            20170405 Week 7
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../Week 5.html">
-                            20170322 Week 5
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../Week 3.html">
-                            20170308 Week 3
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../Week 2.html">
-                            20170301 Week 2
                         </a>
                     </li>
                 </ul>
