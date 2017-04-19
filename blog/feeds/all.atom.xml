@@ -16,7 +16,7 @@ brython(1);
 
 &lt;canvas id="fourbar" width="600" height="400"&gt;&lt;/canvas&gt;
 
-&lt;div id="container1"&gt;&lt;/div&gt;
+&lt;div id="container_40123158"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
@@ -24,7 +24,7 @@ from browser import html
 import math
 # 準備繪圖畫布
 canvas = doc["fourbar"]
-container1 = doc['container1']
+container1 = doc['container_40123158']
 ctx = canvas.getContext("2d")
 
 fourbar_data = open("./../40123158/data/midterm1.csv").read()
@@ -64,7 +64,7 @@ ctx.closePath()
 
 &lt;canvas id="fourbar" width="600" height="400"&gt;&lt;/canvas&gt;
 
-&lt;div id="container1"&gt;&lt;/div&gt;
+&lt;div id="container_40423206"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
@@ -72,7 +72,7 @@ from browser import html
 import math
 # 準備繪圖畫布
 canvas = doc["fourbar"]
-container1 = doc['container1']
+container1 = doc['container_40423206']
 ctx = canvas.getContext("2d")
 
 fourbar_data = open("./../40423206/data/midterm2.csv").read()
@@ -112,7 +112,7 @@ ctx.closePath()
 
 &lt;canvas id="fourbar" width="600" height="400"&gt;&lt;/canvas&gt;
 
-&lt;div id="container1"&gt;&lt;/div&gt;
+&lt;div id="container_40423207"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
@@ -120,7 +120,7 @@ from browser import html
 import math
 # 準備繪圖畫布
 canvas = doc["fourbar"]
-container1 = doc['container1']
+container1 = doc['container_40423207']
 ctx = canvas.getContext("2d")
 
 fourbar_data = open("./../40423207/data/midterm3.csv").read()
@@ -160,7 +160,7 @@ ctx.closePath()
 
 &lt;canvas id="fourbar" width="600" height="400"&gt;&lt;/canvas&gt;
 
-&lt;div id="container1"&gt;&lt;/div&gt;
+&lt;div id="container_40423219"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
@@ -168,7 +168,7 @@ from browser import html
 import math
 # 準備繪圖畫布
 canvas = doc["fourbar"]
-container1 = doc['container1']
+container1 = doc['container_40423219']
 ctx = canvas.getContext("2d")
 
 fourbar_data = open("./../40423219/data/midterm4.csv").read()
@@ -210,7 +210,7 @@ ctx.closePath()
 
 &lt;canvas id="fourbar" width="600" height="400"&gt;&lt;/canvas&gt;
 
-&lt;div id="container1"&gt;&lt;/div&gt;
+&lt;div id="container_40423226"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
@@ -218,7 +218,7 @@ from browser import html
 import math
 # 準備繪圖畫布
 canvas = doc["fourbar"]
-container1 = doc['container1']
+container1 = doc['container_40423226']
 ctx = canvas.getContext("2d")
 
 fourbar_data = open("./../40423226/data/midterm5.csv").read()
@@ -260,7 +260,7 @@ ctx.closePath()
 
 &lt;canvas id="fourbar" width="600" height="400"&gt;&lt;/canvas&gt;
 
-&lt;div id="container1"&gt;&lt;/div&gt;
+&lt;div id="container_40423229"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
@@ -268,7 +268,7 @@ from browser import html
 import math
 # 準備繪圖畫布
 canvas = doc["fourbar"]
-container1 = doc['container1']
+container1 = doc['container_40423229']
 ctx = canvas.getContext("2d")
 
 fourbar_data = open("./../40423229/data/midterm6.csv").read()
@@ -315,8 +315,8 @@ from browser import document as doc
 from browser import html
 import math
 # 準備繪圖畫布
-canvas = doc["fourbar"]
-container1 = doc['container1']
+canvas = doc["container_40423241"]
+container1 = doc['container_40423241']
 ctx = canvas.getContext("2d")
 
 fourbar_data = open("./../40423241/data/midterm7.csv").read()
@@ -363,8 +363,8 @@ from browser import document as doc
 from browser import html
 import math
 # 準備繪圖畫布
-canvas = doc["fourbar"]
-container1 = doc['container1']
+canvas = doc["container_40423243"]
+container1 = doc['container_40423243']
 ctx = canvas.getContext("2d")
 
 fourbar_data = open("./../40423243/data/midterm8.csv").read()
