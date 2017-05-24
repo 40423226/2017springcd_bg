@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>期末協同實習專案規劃 ( 20170510 Week 12 ) - 2017springcd_bg1 (虎尾科大MDE)</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="./Week 12.html">
+
+        <meta name="author" content="2017springcd_bg1" />
+        <meta name="keywords" content="w12" />
+        <meta name="description" content="．為何需要減速機? 為了達到降低速度與提高扭力之目的, 馬達的輸入轉經由減速機, 使輸出轉會因減速比而改變 例如馬達轉速 3000rpm 經過 1 比 3 減速機之後, 轉速會改變為 1000rpm, 但扭力卻提高近三倍 ．何謂漸開線? 一條直線繞在基圓外, 將線往外拉開, 線上的一點所經過的軌跡 ．如何畫漸開線正齒輪輪廓 ? ．如何模擬 2D 正齒輪組囓合 ? ．如何模擬 3D 正齒輪組囓合 ? 可以利用 Onshape 上 FeatureScript Spur Gear 的模組進行簡單的模擬 ．如何將齒輪減速機構納入四足行走機構 ? ．如何以 2D 動畫模擬齒輪囓合傳動 ? ．如何以 3D 動畫模擬齒輪囓合傳動 ? ．如何模擬四足機構行走 ? 將在 Onshape 上繪製好的四足機構, 匯入 V-rep 模擬實際的運動方式 ..." />
+
+        <meta property="og:site_name" content="2017springcd_bg1 (虎尾科大MDE)" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="期末協同實習專案規劃 ( 20170510 Week 12 )"/>
+        <meta property="og:url" content="./Week 12.html"/>
+        <meta property="og:description" content="．為何需要減速機? 為了達到降低速度與提高扭力之目的, 馬達的輸入轉經由減速機, 使輸出轉會因減速比而改變 例如馬達轉速 3000rpm 經過 1 比 3 減速機之後, 轉速會改變為 1000rpm, 但扭力卻提高近三倍 ．何謂漸開線? 一條直線繞在基圓外, 將線往外拉開, 線上的一點所經過的軌跡 ．如何畫漸開線正齒輪輪廓 ? ．如何模擬 2D 正齒輪組囓合 ? ．如何模擬 3D 正齒輪組囓合 ? 可以利用 Onshape 上 FeatureScript Spur Gear 的模組進行簡單的模擬 ．如何將齒輪減速機構納入四足行走機構 ? ．如何以 2D 動畫模擬齒輪囓合傳動 ? ．如何以 3D 動畫模擬齒輪囓合傳動 ? ．如何模擬四足機構行走 ? 將在 Onshape 上繪製好的四足機構, 匯入 V-rep 模擬實際的運動方式 ..."/>
+        <meta property="article:published_time" content="2017-05-10" />
+            <meta property="article:section" content="Course" />
+            <meta property="article:tag" content="w12" />
+            <meta property="article:author" content="2017springcd_bg1" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="./theme/css/bootstrap.united.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="./theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="2017springcd_bg1 (虎尾科大MDE) ATOM Feed"/>
+
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushBash.js"></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shCore.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="./" class="navbar-brand">
+2017springcd_bg1 (虎尾科大MDE)            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="./pages/about/">
+                             About
+                          </a></li>
+                        <li class="active">
+                            <a href="./category/course.html">Course</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="./search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+              <li><a href="./archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./Week 12.html"
+                       rel="bookmark"
+                       title="Permalink to 期末協同實習專案規劃 ( 20170510 Week 12 )">
+                        期末協同實習專案規劃 ( 20170510 Week 12 )
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2017-05-10T11:00:00+08:00"> Wed 10 May 2017</time>
+    </span>
+            <span class="label label-default">By</span>
+            <a href="./author/2017springcd_bg1.html"><i class="fa fa-user"></i> 2017springcd_bg1</a>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/w12.html">w12</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <h3>．為何需要減速機?</h3>
+
+<p>為了達到<b>降低速度</b>與<b>提高扭力</b>之目的,  馬達的輸入轉經由減速機, 使輸出轉會因減速比而改變</p>
+
+<p></p>例如馬達轉速 3000rpm 經過 1 比 3 減速機之後, 轉速會改變為 1000rpm, 但扭力卻提高近三倍</p></p>
+<h3>．何謂漸開線?</h3>
+
+<p>一條直線繞在基圓外, 將線往外拉開, 線上的一點所經過的軌跡</p>
+
+<p><img src="../data/involute.png" width="800" />
+
+<h3>．如何畫漸開線正齒輪輪廓 ?</h3>
+
+<h3>．如何模擬 2D 正齒輪組囓合 ?</h3>
+
+<h3>．如何模擬 3D 正齒輪組囓合 ?</h3>
+<p>可以利用 Onshape 上 FeatureScript Spur Gear 的模組進行簡單的模擬</p>
+
+<h3>．如何將齒輪減速機構納入四足行走機構 ?</h3>
+
+<h3>．如何以 2D 動畫模擬齒輪囓合傳動 ?</h3>
+
+<h3>．如何以 3D 動畫模擬齒輪囓合傳動 ?</h3>
+
+<h3>．如何模擬四足機構行走 ?</h3>
+
+<p>將在 Onshape 上繪製好的四足機構, 匯入 V-rep 模擬實際的運動方式</p>
+
+<h3>．如何列印齒輪組零件v</h3>
+
+<h3>．如何列印連桿機構 ?</h3>
+
+<h3>．如何組立齒輪組與行走機構 ?</h3>
+
+<h3>．如何控制馬達 ?</h3>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="./Week 12.html">
+                            期末協同實習專案規劃 ( 20170510 Week 12 )
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./Week 10.html">
+                            期中測驗資料整理 ( 20170426 Week 10 )
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./Week 9.html">
+                            期中測驗 ( 20170412 Week 9 )
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./Week 8.html">
+                            20170412 Week 8
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./Week 7.html">
+                            20170405 Week 7
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+                <ul class="list-group" id="categories">
+                    <li class="list-group-item">
+                        <a href="./category/course.html">
+                            <i class="fa fa-folder-open fa-lg"></i> Course
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group list-inline tagcloud" id="tags">
+                </ul>
+            </li>
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://getpelican.com/" target="_blank">
+                Pelican
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/DandyDev/pelican-bootstrap3/" target="_blank">
+                pelican-bootstrap3
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/getpelican/pelican-plugins" target="_blank">
+                pelican-plugins
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/Tipue/Tipue-Search" target="_blank">
+                Tipue search
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2017 2017springcd_bg1
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="./theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./theme/js/bootstrap.min.js"></script>
+
+<!-- for https://github.com/jsor/lity lightbox video popup -->
+
+<link href="./theme/css/lity.css" rel="stylesheet">
+
+<script src="./theme/js/lity.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="./theme/js/respond.min.js"></script>
+
+
+</body>
+</html>

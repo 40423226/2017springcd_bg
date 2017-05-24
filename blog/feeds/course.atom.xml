@@ -1,5 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017springcd_bg1 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-04-26T11:00:00+08:00</updated><entry><title>期中測驗資料整理 ( 20170426 Week 10 )</title><link href="./Week%2010.html" rel="alternate"></link><published>2017-04-26T11:00:00+08:00</published><updated>2017-04-26T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-04-26:./Week 10.html</id><summary type="html">&lt;h3&gt;四連桿機構協同 Trace Point 查驗&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017springcd_bg1 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-05-10T11:00:00+08:00</updated><entry><title>期末協同實習專案規劃 ( 20170510 Week 12 )</title><link href="./Week%2012.html" rel="alternate"></link><published>2017-05-10T11:00:00+08:00</published><updated>2017-05-10T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-05-10:./Week 12.html</id><summary type="html">&lt;h3&gt;．為何需要減速機?&lt;/h3&gt;
+
+&lt;p&gt;為了達到&lt;b&gt;降低速度&lt;/b&gt;與&lt;b&gt;提高扭力&lt;/b&gt;之目的,  馬達的輸入轉經由減速機, 使輸出轉會因減速比而改變&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;例如馬達轉速 3000rpm 經過 1 比 3 減速機之後, 轉速會改變為 1000rpm, 但扭力卻提高近三倍&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;．何謂漸開線?&lt;/h3&gt;
+
+&lt;p&gt;一條直線繞在基圓外, 將線往外拉開, 線上的一點所經過的軌跡&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="../data/involute.png" width="800" /&gt;
+
+&lt;h3&gt;．如何畫漸開線正齒輪輪廓 ?&lt;/h3&gt;
+
+&lt;h3&gt;．如何模擬 2D 正齒輪組囓合 ?&lt;/h3&gt;
+
+&lt;h3&gt;．如何模擬 3D 正齒輪組囓合 ?&lt;/h3&gt;
+&lt;p&gt;可以利用 Onshape 上 FeatureScript Spur Gear 的模組進行簡單的模擬&lt;/p&gt;
+
+&lt;h3&gt;．如何將齒輪減速機構納入四足行走機構 ?&lt;/h3&gt;
+
+&lt;h3&gt;．如何以 2D 動畫模擬齒輪囓合傳動 ?&lt;/h3&gt;
+
+&lt;h3&gt;．如何以 3D 動畫模擬齒輪囓合傳動 ?&lt;/h3&gt;
+
+&lt;h3&gt;．如何模擬四足機構行走 ?&lt;/h3&gt;
+
+&lt;p&gt;將在 Onshape 上繪製好的四足機構, 匯入 V-rep 模擬實際的運動方式&lt;/p&gt;
+
+&lt;h3&gt;．如何列印齒輪組零件v&lt;/h3&gt;
+
+&lt;h3&gt;．如何列印連桿機構 ?&lt;/h3&gt;
+
+&lt;h3&gt;．如何組立齒輪組與行走機構 ?&lt;/h3&gt;
+
+&lt;h3&gt;．如何控制馬達 ?&lt;/h3&gt;</summary><category term="w12"></category></entry><entry><title>期中測驗資料整理 ( 20170426 Week 10 )</title><link href="./Week%2010.html" rel="alternate"></link><published>2017-04-26T11:00:00+08:00</published><updated>2017-04-26T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-04-26:./Week 10.html</id><summary type="html">&lt;p&gt;&lt;link href="./../data/madeleine/src/css/Madeleine.css" rel="stylesheet"&gt;
+&lt;script src="./../data/madeleine/src/lib/stats.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/lib/detector.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/lib/three.min.js"&gt;&lt;/script&gt;
+&lt;script src="./../data/madeleine/src/Madeleine.js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;div id="target" class="madeleine"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+window.onload = function(){
+    var madeleine = new Madeleine({
+      target: 'target', // target div id
+      data: './../data/fourbar/Fourbar Walker.stl', // data path
+      path: './../data/madeleine/src/' // path to source directory from current html file
+    });
+}; 
+&lt;/script&gt;
+
+&lt;h3&gt;四連桿機構協同 Trace Point 查驗&lt;/h3&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
@@ -371,10 +422,13 @@ ctx.closePath()
 
 &lt;p&gt;Fourbar 零件繪製: &lt;a href="https://cad.onshape.com/documents/58ff0d60047f9410bd920539/w/419b274e8049b2a405de4d65/e/d050f103cbf1bb127447e5d1"&gt;Onshape 連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="../data/fourbar/fourbar walker.png" width="800" /&gt;
 &lt;p&gt;Onshape 機構組裝: &lt;button onClick="lity('https://vimeo.com/213782835')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 影片&lt;/button&gt;&lt;/p&gt;
+
 &lt;p&gt;Onshape 運動模擬: &lt;button onClick="lity('https://vimeo.com/214768292')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 影片&lt;/button&gt;&lt;/p&gt;
-&lt;p&gt;V-rep 運動模擬: &lt;button onClick="lity('https://vimeo.com/214771464')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 影片&lt;/button&gt;&lt;/p&gt;</summary><category term="w10"></category></entry><entry><title>期中測驗 ( 20170412 Week 9 )</title><link href="./Week%209.html" rel="alternate"></link><published>2017-04-19T11:00:00+08:00</published><updated>2017-04-19T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-04-19:./Week 9.html</id><summary type="html">&lt;h3&gt;四連桿機構協同 Trace Point 查驗&lt;/h3&gt;
+
+&lt;p&gt;V-rep 運動模擬: &lt;button onClick="lity('https://vimeo.com/214771464')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 影片&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="../data/fourbar/fourbar walker.png" width="800" /&gt;</summary><category term="w10"></category></entry><entry><title>期中測驗 ( 20170412 Week 9 )</title><link href="./Week%209.html" rel="alternate"></link><published>2017-04-19T11:00:00+08:00</published><updated>2017-04-19T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-04-19:./Week 9.html</id><summary type="html">&lt;h3&gt;四連桿機構協同 Trace Point 查驗&lt;/h3&gt;
 
 &lt;p&gt;參考的網際程式如下:&lt;/p&gt;
 
